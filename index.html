@@ -109,6 +109,11 @@ And use media queries:
 <footer>
 <p>� 2025 Quantum Clicks. All rights reserved.</p>
 </footer>
-
+<script>
+  window.addEventListener('load', () => {
+    const loader = document.querySelector('.loader');
+    if (loader) loader.style.display = 'none';
+  });
+</script>
 </body>
 </html>
