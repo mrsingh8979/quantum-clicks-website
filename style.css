@@ -1,0 +1,121 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: #0a0a0a;
+color: #f0f0f0;
+}
+
+header {
+background: #111;
+text-align: center;
+padding: 30px 20px;
+}
+
+.logo {
+width: 180px;
+margin-bottom: 10px;
+border-radius: 12px;
+}
+
+.tagline {
+font-style: italic;
+color: #aaa;
+margin-top: -10px;
+}
+
+nav a {
+margin: 0 15px;
+color: #0ff;
+text-decoration: none;
+font-weight: bold;
+}
+
+section {
+padding: 40px 20px;
+border-bottom: 1px solid #222;
+}
+
+h2 {
+color: #0ff;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+ul li {
+margin: 10px 0;
+font-size: 18px;
+}
+
+.insta-btn, .whatsapp-btn {
+display: inline-block;
+padding: 12px 20px;
+margin-top: 10px;
+background: #0ff;
+color: #111;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+}
+
+footer {
+background: #000;
+text-align: center;
+padding: 20px;
+color: #555;
+}
+#services {
+    text-align: center;
+    padding: 40px;
+    background-color: #0f0f0f;
+    color: white;
+    }
+    
+    .service-card {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    
+    .service-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+    object-fit: cover;
+    }
+    
+    .service-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    }
+    
+    .service-card p {
+    font-size: 14px;
+    color: #ccc;
+    }
+    .animated-title {
+        font-size: 36px;
+        color: #fff;
+        position: relative;
+        animation: slideGlow 1.5s ease-out forwards;
+        opacity: 0;
+      }
+      
+      @keyframes slideGlow {
+        0% {
+          transform: translateY(20px);
+          opacity: 0;
+          text-shadow: none;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+          text-shadow: 0 0 15px #00f0ff, 0 0 30px #00f0ff;
+        }
+      }
