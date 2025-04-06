@@ -119,3 +119,25 @@ color: #555;
           text-shadow: 0 0 15px #00f0ff, 0 0 30px #00f0ff;
         }
       }
+#our-work {
+  background-color: #0d0d0d;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#our-work h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#our-work p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.lightwidget-widget {
+  border-radius: 12px;
+  max-width: 100%;
+}
