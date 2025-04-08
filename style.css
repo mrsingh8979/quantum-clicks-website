@@ -214,3 +214,12 @@ img,video {
   0% { opacity: 0; transform: translateY(30px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+body {
+  background-image: url('background image.jpg'); /* Update path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional - gives it a parallax feel */
+  font-family: 'Poppins', sans-serif;
+  color: white; /* Make text readable on dark background */
+}
