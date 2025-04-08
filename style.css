@@ -1,9 +1,4 @@
-body {
-margin: 0;
-font-family: 'Segoe UI', sans-serif;
-background: #0a0a0a;
-color: #f0f0f0;
-}
+
 @font-face {
   font-family: 'Graceful';
   src: url('GRACEFUL.ttf') format('truetype');
