@@ -226,3 +226,12 @@ body {
   font-family: 'Poppins', sans-serif;
   color: white; /* Make text readable on dark background */
 }
+.hero-section {
+  background-image: url('bg.JPG');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
