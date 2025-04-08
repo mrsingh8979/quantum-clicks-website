@@ -215,7 +215,7 @@ img,video {
   100% { opacity: 1; transform: translateY(0); }
 }
 body {
-  background-image: url('background image.jpg'); /* Update path as needed */
+  background-image: url('background image.JPG'); /* Update path as needed */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
