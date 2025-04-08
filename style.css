@@ -203,6 +203,11 @@ color: #555;
 @keyframes spin {
   100% { transform: rotate(360deg); }
 }
+img,video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
 
 /* Animation */
 @keyframes fadeIn {
